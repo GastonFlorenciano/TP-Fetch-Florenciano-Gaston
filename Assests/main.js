@@ -19,7 +19,7 @@ const renderizarPersonajes = (characters) => { // Procedemos a crear la función
     characters.forEach(character => { // Recorremos el resultado obtenido al hacer "fetch" para posteriormente tomar los datos que necesitamos.
 
         const characterElement = document.createElement("div"); // Creamos un "div" que va a contener cada uno de los datos.
-        
+        characterElement.className = "character";
         characterElement.innerHTML = ` 
             <img src="${character.image}">
             <h3>${character.name}<h3/>
