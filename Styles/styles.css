@@ -39,6 +39,7 @@ body {
 }
 .character h3{
     font-family: "Press Start 2P", system-ui;
+    font-size: 15px;
 }
 .character p{
     font-family:Arial, Helvetica, sans-serif;
